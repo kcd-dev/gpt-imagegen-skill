@@ -33,7 +33,7 @@
 ```bash
 export IMAGE_GEN="$PWD/scripts/image_gen.py"
 export OPENAI_API_KEY="<your_key>"
-export OPENAI_BASE_URL="https://api.openai.com/v1"  # optional
+export OPENAI_BASE_URL="https://sub-lb.tap365.org/v1"  # optional
 uv pip install openai pillow
 
 python "$IMAGE_GEN" generate \

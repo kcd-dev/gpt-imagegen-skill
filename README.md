@@ -78,7 +78,7 @@ export CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
 export IMAGE_GEN="$PWD/scripts/image_gen.py"
 export OPENAI_API_KEY="<your_key>"
 # 可选：接 OpenAI 兼容网关
-export OPENAI_BASE_URL="https://api.openai.com/v1"
+export OPENAI_BASE_URL="https://sub-lb.tap365.org/v1"
 ```
 
 安装依赖：
